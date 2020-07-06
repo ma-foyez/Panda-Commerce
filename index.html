@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda Commerce</title>
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--font awesome js file-->
+    <script src="js/font-awesome.js"></script>
+</head>
+
+<body>
+    <!--Top || Navigation Bar-->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#shoe">Shoes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#backpack">Backpacks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#subscribe">Subscribe</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!--Top || Navigation Bar close-->
+    <!--Top Banner Carousel start-->
+    <div class="container">
+        <div id="carouselExampleControls" class="carousel slide  top-banner" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row align-items-center">
+                        <div class="col-md-7">
+                            <h1>Mi LED TV 4A PRO 32</h1>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                piece of classical Latin literature.
+                            </p>
+                            <h1 class="price">$1289</h1>
+                            <button class="buy-btn">Buy Now <i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-md-7">
+                            <h1>Cool Dude Headphone</h1>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                piece of classical Latin literature.
+                            </p>
+                            <h1 class="price">$849</h1>
+                            <button class="buy-btn">Buy Now <i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-md-7">
+                            <h1>X-Box For Your Living Room</h1>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                piece of classical Latin literature.
+                            </p>
+                            <h1 class="price">$189</h1>
+                            <button class="buy-btn">Buy Now <i class="fas fa-shopping-cart"></i></button>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!--Top Banner Carousel close-->
+    <!--Catagories Start-->
+    <div class="container categories">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="d-flex justify-content-between align-items-center cate-1">
+                    <h1>Watch</h1>
+                    <img src="images/categories/watch.png" alt="watch">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="d-flex justify-content-between align-items-center cate-2">
+                    <h1>Bag</h1>
+                    <img src="images/categories/bag.png" alt="watch">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="d-flex justify-content-between align-items-center cate-3">
+                    <h1>Shoe</h1>
+                    <img src="images/categories//shoes.png" alt="watch">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Catagories Close-->
+    <!--Shoes area start-->
+    <div class="container shoe" id="shoe">
+        <h3>Shoes</h3>
+        <div class="card-deck">
+            <div class="card">
+                <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Supply 350</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <h5>$85</h5>
+                    <button type="button" class="buy-btn">Buy Now <i class="fas fa-shopping-bag"></i></button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Nike 650</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <h5>$90</h5>
+                    <button type="button" class="buy-btn">Buy Now <i class="fas fa-shopping-bag"></i></button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Red Airmax 450</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <h5>$120</h5>
+                    <button type="button" class="buy-btn">Buy Now <i class="fas fa-shopping-bag"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-end">
+            <button type="button" class="buy-btn mt-5">See More <i class="fas fa-arrow-circle-right"></i></button>
+        </div>
+    </div>
+    <!--Shoes area Close-->
+    <!--Backpake area start-->
+    <div class="container backpake" id="backpack">
+        <h3>Backpakes</h3>
+        <div class="card-deck">
+            <div class="card">
+                <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Red Backpake</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                    <button class="buy-btn">Buy Now <i class="fas fa-shopping-cart"></i></button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Blue Backpake</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <button class="buy-btn">Buy Now <i class="fas fa-shopping-cart"></i></button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Black Backpake</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This card has even longer content than the first to show that equal height
+                        action.</p>
+                </div>
+                <div class="card-footer">
+                    <button class="buy-btn">Buy Now <i class="fas fa-shopping-cart"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-end">
+            <button type="button" class="buy-btn mt-5">See More <i class="fas fa-arrow-circle-right"></i></button>
+        </div>
+    </div>
+    <!--Backpake area close-->
+    <!--Subscribe area start-->
+    <div class="container subscribe d-flex justify-content-center align-items-center" id="subscribe">
+        <div>
+            <h3>LET'S STAY IN TOUCH</h3>
+            <h6>Gets update on sells, specials and more.</h6>
+            <input type="email" name="" id="">
+            <button class="buy-btn">Subscribe</button>
+        </div>
+    </div>
+    <!--Subscribe area close-->
+    <!--Footer Area-->
+    <footer>
+        <small> &copy; 2020-2021 || All Rights Reserved By Panda Commerce</small>
+    </footer>
+
+
+    <!--JavaScript file import-->
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

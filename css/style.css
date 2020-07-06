@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin-bottom: 50px;
+}
+.top-banner, .subscribe{
+    background-color: #FEEAE9;
+    border-radius: 10px;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+.price{
+    color: #ff136f;;
+}
+.buy-btn{
+    background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+.cate-1, .cate-2, .cate-3{
+    padding: 10px 30px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+.cate-1{
+    background-image: linear-gradient(to bottom, #FF8635 0%, #FCE40B 100%);
+}
+.cate-2{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF5891 100%);
+}
+.cate-3{
+    background-image: linear-gradient(to bottom, #3F07F8 0%, #076FF8 100%);
+}
+.categories h1{
+    color: #ffff;
+}
+.categories img{
+    width: 120px;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.card-footer{
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+}
+.subscribe{
+    padding: 50px;
+    width: 90%;
+}
+.subscribe h6{
+    color: gray;
+}
+.subscribe input{
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+footer{
+    text-align: center;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
